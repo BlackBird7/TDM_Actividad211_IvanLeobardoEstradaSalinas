@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string-array name="signos">
+        <item>Aries</item>
+        <item>Tauro</item>
+        <item>Geminis</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Escorpio</item>
+        <item>Sagitario</item>
+        <item>Capricornio</item>
+        <item>Acuario</item>
+        <item>Picis</item>
+    </string-array>
+
+</resources>
