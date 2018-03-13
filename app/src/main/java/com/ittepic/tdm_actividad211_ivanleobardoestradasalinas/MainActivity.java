@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         editor.putBoolean("escritura",esc.isChecked());
         editor.putBoolean("caminata",camin.isChecked());
 
-        int seleccion = spn.getSelectedItemPosition();
-        editor.putInt("signo",seleccion);
+        //int seleccion = spn.getSelectedItemPosition();
+        editor.putInt("signo",spn.getSelectedItemPosition());
         editor.commit();
 
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         h1= sharedPreferences.getBoolean("programacion", false);
         h2= sharedPreferences.getBoolean("escritura", false);
         h3= sharedPreferences.getBoolean("caminata", false);
-        zod = sharedPreferences.getInt("",0);
+        zod = sharedPreferences.getInt("signo",0);
 
         email.setText(eM);
         h.setChecked(g1);
