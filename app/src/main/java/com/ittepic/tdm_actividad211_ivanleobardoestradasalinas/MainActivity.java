@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
         grd=findViewById(R.id.guardar);
         obt=findViewById(R.id.obtener);
 
-        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.signos, R.layout.support_simple_spinner_dropdown_item);
-        spn.setAdapter(adapter);
 
     }
     public void guardarPreferencia (View v){
@@ -81,6 +79,6 @@ public class MainActivity extends AppCompatActivity {
         camin.setChecked(h3);
         spn.setSelection(zod);
 
-        Toast.makeText(this,"Datos Cargados", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Configuracion Cargada", Toast.LENGTH_LONG).show();
     }
 }
